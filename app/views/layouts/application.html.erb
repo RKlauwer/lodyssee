@@ -13,6 +13,17 @@
   </head>
 
   <body>
+    <div class="navbar <%= yield(:navbar_class) %>">
+      <div class="nav-logo">
+        <%= link_to "/", class: "navbar-brand" do %>
+          <%= image_tag "lodyssee-new.png", class: "navbar-logo" %>
+        <% end %>
+      </div>
+      <div class="nav-links">
+        <a href="/restaurante">Restaurante</a>
+        <a href="/habitacions">Habitacions</a>
+      </div>
+    </div>
     <%= yield %>
   </body>
 </html>

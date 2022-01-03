@@ -4,30 +4,42 @@
   display: flex;
   justify-content: space-between;
   background-color: #172016;
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+}
+
+.navbar-home {
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
 }
 
 a {
   padding: 4px 8px;
-  color: white;
+  color: rgb(240, 240, 240);
   background-color: #172016;
   border-style: solid;
-  border-color: white;
+  color: rgb(240, 240, 240);
   margin-right: 1%;
 }
 
 a:hover {
   text-decoration: none;
-  background-color: white;
+  background-color: rgb(240, 240, 240);
   color: #172016;
   transition: 0.5s ease-in-out;
 }
 
-.navbar-links {
-  padding: 1%;
-  margin-right: 1%;
+.nav-links {
+  display: flex;
 }
 
 .navbar-logo {
   height: 30px;
   width: 30px;
+}
+
+.nav-links a {
+  margin-left: 10px;
 }

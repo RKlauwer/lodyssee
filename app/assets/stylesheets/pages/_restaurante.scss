@@ -1,3 +1,28 @@
-.navbar-links-restaurante {
-  color: blue;
+.restaurant-info {
+  display: flex;
+  background-color: rgb(248, 240, 225);
+  padding: 20px;
+  color: #172016;
+}
+
+.info-text {
+  width: 50%;
+  text-align: center;
+}
+
+.info-photos {
+  width: 50%;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(248, 240, 225);
+}
+
+.menu-pdf {
+  text-align: center;
+  margin-bottom: 40px;
+   a {
+    padding: 16px 32px;
+  }
 }
